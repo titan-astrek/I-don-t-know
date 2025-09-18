@@ -1,0 +1,40 @@
+/*External CSS File*/
+
+button{
+background-color:White;
+color:black;
+padding:10px;
+border:none;
+width:100px;
+}
+
+body{
+background-color:lightblue;
+}
+.navigation{
+display:grid;
+grid-tamplate-columns:repeat(12,1fr);
+gap:10px;
+}
+.Header{
+grid-column:1/span 6;
+bacckground:yellow;
+padding:20px;
+}
+.nav{
+grid-column:11/ span 1;
+bacckground:yellow;
+padding:20px;
+}
+.login{
+display:grid;
+grid-tamplate-columns:repeat(12,1fr);
+gap:10px;
+}
+
+.input{
+bacckground:darkblue;
+grid-tamplate-columns:repeat(12,1fr);
+padding:10px;
+}
+
