@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Activity</title>
+</head>
+<body>
+
+
+<form>
+	<labal for="User Name">First Name</labal>
+	<input type="text" id="username" name="username">
+</form>
+
+<h1></h1>
+
+<form>
+	<labal for="User Name">Last Name</labal>
+	<input type="text" id="lastname" name="username">
+</form>
+
+<h1></h1>
+
+<button onclick="Fullname()">Display</button>
+
+<button onclick="printNumber(3,1)">Num1</button>
+<button onclick="printNumber(5,6)">Num2</button>
+
+<button onclick="Para(7)">Para1</button>
+<button onclick="Para()">Para2</button>
+
+<script>
+
+function Fullname(){
+var A=document.getElementById("username").value;
+var B=document.getElementById("lastname").value;
+document.getElementById("name").innerHTML=A+" "+B;
+};
+
+
+function printNumber(Num1,Num2){
+document.getElementById("output").innerHTML=Num1,Num2;
+};
+
+
+function Para(Num1=20){
+document.getElementById("para").innerHTML=Num1;
+};
+
+</script>
+
+<p id="name"></p>
+<p id="output"></p>
+<p id="para"></p>
+
+</body>
+</html>
